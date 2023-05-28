@@ -13,7 +13,9 @@
 </body>
 <script>
 
-    var slider_1 = {
+    const jsPsych = initJsPsych();
+
+    const slider_1 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第1問</p>
@@ -27,7 +29,7 @@
         require_movement: false
     };
 
-    var slider_2 = {
+    const slider_2 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第2問</p>
@@ -41,7 +43,7 @@
         require_movement: false
     };
 
-    var slider_3 = {
+    const slider_3 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第3問</p>
@@ -55,7 +57,7 @@
         require_movement: false
     };
 
-    var slider_4 = {
+    const slider_4 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第4問</p>
@@ -69,7 +71,7 @@
         require_movement: false
     };
 
-    var slider_5 = {
+    const slider_5 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第5問</p>
@@ -83,7 +85,7 @@
         require_movement: false
     };
 
-    var slider_6 = {
+    const slider_6 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width=500px; float: left;">
             <p>第6問</p>
@@ -92,25 +94,12 @@
         min: 0,
         max: 100,
         start: 50,
-        step: 125,
+        step: 12.5,
         slider_width: 750,
         require_movement: false
     };
 
-    var timeline = [];
-    timeline.push(slider_1);
-    timeline.push(slider_2);
-    timeline.push(slider_3);
-    timeline.push(slider_4);
-    timeline.push(slider_5);
-    timeline.push(slider_6);
-
-    initJsPsych({
-      timeline: timeline,
-      on_finish: function() {
-        jsPsych.data.displayData();
-      },
-    });
+    jsPsych.run([slider_1,slider_2,slider_3,slider_4,slider_5,slider_6]);
 
 
 </script>
