@@ -14,12 +14,6 @@
 </body>
 <script>
 
-    const jsPsych = initJsPsych({
-      on_finish: () => {
-        jsPsych.data.displayData();
-      },
-    });
-
     var inst = {
         type: jsPsychInstructions,
         pages: [
@@ -32,7 +26,7 @@
         button_label_next: "次へ"
     };
 
-    const slider_1 = {
+    var slider_1 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第1問</p>
@@ -56,7 +50,7 @@
         require_movement: true
     };
 
-    const slider_2 = {
+    var slider_2 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第2問</p>
@@ -80,7 +74,7 @@
         require_movement: true
     };
 
-    const slider_3 = {
+    var slider_3 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第3問</p>
@@ -104,7 +98,7 @@
         require_movement: true
     };
 
-    const slider_4 = {
+    var slider_4 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第4問</p>
@@ -128,7 +122,7 @@
         require_movement: true
     };
 
-    const slider_5 = {
+    var slider_5 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第5問</p>
@@ -152,7 +146,7 @@
         require_movement: true
     };
 
-    const slider_6 = {
+    var slider_6 = {
         type: jsPsychHtmlSliderResponse,
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第6問</p>
@@ -176,7 +170,20 @@
         require_movement: true
     };
 
-    jsPsych.run([inst,slider_1,slider_2,slider_3,slider_4,slider_5,slider_6]);
+    //timelineの設定
+    var timeline = [];
+    timeline.push(inst);
+    timeline.push(slider_1);
+    timeline.push(slider_2);
+    timeline.push(slider_3);
+    timeline.push(slider_4);
+    timeline.push(slider_5);
+    timeline.push(slider_6);
+
+    //実験開始
+    var jsPsych = initJsPsych({});
+
+    jsPsych.run(timeline);
 
 
 </script>
