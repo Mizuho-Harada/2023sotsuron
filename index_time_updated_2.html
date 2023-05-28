@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>SVO</title>
+    <script src="jspsych/jspsych.js"></script>
+    <script src="jspsych/plugin-instructions.js"></script>
+    <script src="jspsych/plugin-html-slider-response.js"></script>
+    <script src="main_time.js"></script>
+    <link href="jspsych/jspsych.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <style>
+        #display_stage_background {
+            width: 100vw;
+            background-color: white;
+            z-index: -1;
+        }
+    
+        #display_stage {
+            position: fixed;
+            left: 1vw;
+            top: 1vh;
+            height: 98vh;
+            width: 98vw;
+            background-color: white;
+            box-shadow: 1px 1px 1px #999;
+            border-radius: 15px;
+            z-index: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+    </style>
+    
+    <div id='display_stage_background'></div>
+    <div id='display_stage'></div>
+</body>
+<script>
+
+    //実験開始
+    var jsPsych = initJsPsych({
+        display_element: 'display_stage',
+        on_finish: function () {
+            jsPsych.data.displayData();
+        }
+    });
+
+    jsPsych.run(timeline);
+
+
+</script>
+</html>
