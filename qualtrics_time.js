@@ -34,14 +34,12 @@ Qualtrics.SurveyEngine.addOnload(function()
     function initExp() {
         jsPsych.init({
             timeline: timeline,
-            display_element: 'display_stage',
             on_finish: function (data) {
        
                   var datajs = jsPsych.data.get().json();
                  
                 Qualtrics.SurveyEngine.setEmbeddedData("datajs", datajs);
          
-                jQuery('display_stage').remove();
                 jQuery('display_stage_background').remove();
          
                 qthis.clickNextButton();
