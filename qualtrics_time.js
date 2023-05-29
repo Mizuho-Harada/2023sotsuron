@@ -4,13 +4,13 @@ Qualtrics.SurveyEngine.addOnload(function()
     var qthis = this;
     qthis.hideNextButton();
  
-    var task_github = "https://github.com/Mizuho-Harada/2023sotsuron.git"; 
+    var task_github = "https://Mizuho-Harada.github.io/2023sotsuron"; 
  
     var requiredResources = [
         task_github + "jspsych/jspsych.js",
-        task_github + "jspsych/plugin-instructions.js",
-        task_github + "jspsych/plugin-html-slider-response.js",
-        task_github + "main_time.js",
+        task_github + "jspsych/plugins/jspsych-instructions.js",
+        task_github + "jspsych/plugins/jspsych-html-slider-response.js",
+        task_github + "main_time.js"
     ];
  
     function loadScript(idx) {
