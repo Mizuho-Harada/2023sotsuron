@@ -144,7 +144,6 @@ var slider_6 = {
 
 //timelineの設定
 var timeline = [];
-timeline.push(inst);
 timeline.push(slider_1);
 timeline.push(slider_2);
 timeline.push(slider_3);
