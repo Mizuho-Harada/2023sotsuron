@@ -1,15 +1,3 @@
-var inst = {
-    type: "instructions",
-    pages: [
-        '<p>これから、Task1を始めます。</p>',
-        '<p>あなたは自分以外の一人とペアを組んだとします。</p><p>この人はあなたの知っている人ではなく、お互いに匿名な状態です。</p><p>以降、この人を「他者」と表記します。</p><p>よろしければ、「次へ」をクリックしてください。</p>',
-        '<p>あなたにはこれから，あなたと他者との間における資源の分配を決定していただきます。</p><p>以下の質問のそれぞれについて，<strong>あなたが最も好む配分</strong>をコンピュータ上の選択肢から選択してください。</p><p>資源の量はポイント (pt) で表記されており，<strong><font color="red">1ptあたり100円</font></strong>の価値があります。</p><p>これらの質問に正解・不正解はありませんのであなたの思うままに回答してください。</p><p>あなたの選択は、<strong><font color="red">他者が受け取るポイントだけでなく，あなたが受け取るポイントにも影響を与える</font></strong>ことに注意してください。</p><p>よろしければ、「次へ」をクリックしてください。</p>',
-    ],
-    show_clickable_nav: true,
-    allow_backward: false,
-    button_label_next: "次へ"
-};
-
 var slider_1 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
