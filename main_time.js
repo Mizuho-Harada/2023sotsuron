@@ -1,5 +1,5 @@
 var inst = {
-    type: jsPsychInstructions,
+    type: "instructions",
     pages: [
         '<p>これから、Task1を始めます。</p>',
         '<p>あなたは自分以外の一人とペアを組んだとします。</p><p>この人はあなたの知っている人ではなく、お互いに匿名な状態です。</p><p>以降、この人を「他者」と表記します。</p><p>よろしければ、「次へ」をクリックしてください。</p>',
@@ -11,7 +11,7 @@ var inst = {
 };
 
 var slider_1 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第1問</p>
         </div>
@@ -35,7 +35,7 @@ var slider_1 = {
 };
 
 var slider_2 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第2問</p>
         </div>
@@ -59,7 +59,7 @@ var slider_2 = {
 };
 
 var slider_3 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第3問</p>
         </div>
@@ -83,7 +83,7 @@ var slider_3 = {
 };
 
 var slider_4 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第4問</p>
         </div>
@@ -107,7 +107,7 @@ var slider_4 = {
 };
 
 var slider_5 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第5問</p>
         </div>
@@ -131,7 +131,7 @@ var slider_5 = {
 };
 
 var slider_6 = {
-    type: jsPsychHtmlSliderResponse,
+    type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第6問</p>
         </div>
