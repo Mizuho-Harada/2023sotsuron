@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <title>SVO</title>
     <script src="jspsych/jspsych.js"></script>
-    <script src="jspsych/plugin-instructions.js"></script>
-    <script src="jspsych/plugin-html-slider-response.js"></script>
-    <link href="jspsych/jspsych.css" rel="stylesheet" type="text/css" />
+    <script src="jspsych/plugins/jspsych-instructions.js"></script>
+    <script src="jspsych/plugins/jspsych-html-slider-response.js"></script>
+    <link href="jspsych/css/jspsych.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 </body>
 <script>
 
     var inst = {
-        type: jsPsychInstructions,
+        type: "instructions",
         pages: [
             '<p>これから、Task1を始めます。</p>',
             '<p>あなたは自分以外の一人とペアを組んだとします。</p><p>この人はあなたの知っている人ではなく、お互いに匿名な状態です。</p><p>以降、この人を「他者」と表記します。</p><p>よろしければ、「次へ」をクリックしてください。</p>',
@@ -26,7 +26,7 @@
     };
 
     var slider_1 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第1問</p>
             </div>
@@ -50,7 +50,7 @@
     };
 
     var slider_2 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第2問</p>
             </div>
@@ -74,7 +74,7 @@
     };
 
     var slider_3 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第3問</p>
             </div>
@@ -98,7 +98,7 @@
     };
 
     var slider_4 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第4問</p>
             </div>
@@ -122,7 +122,7 @@
     };
 
     var slider_5 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第5問</p>
             </div>
@@ -146,7 +146,7 @@
     };
 
     var slider_6 = {
-        type: jsPsychHtmlSliderResponse,
+        type: "html-slider-response",
         stimulus: `<div style="width:500px;">
                 <p style="text-align: left">第6問</p>
             </div>
@@ -180,10 +180,9 @@
     timeline.push(slider_6);
 
     //実験開始
-    var jsPsych = initJsPsych({});
-
-    jsPsych.run(timeline);
-
+    jsPsych.init({
+        timeline: timeline,
+    });
 
 </script>
 </html>
