@@ -30,7 +30,6 @@ var slider_1 = {
     max: 100,
     start: 50,
     step: 12.5,
-    slider_width: null,
     require_movement: true
 };
 
