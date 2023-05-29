@@ -4,7 +4,7 @@ Qualtrics.SurveyEngine.addOnload(function()
     var qthis = this;
     qthis.hideNextButton();
  
-    var task_github = "https://Mizuho-Harada.github.io/2023sotsuron"; 
+    var task_github = "https://Mizuho-Harada.github.io/2023sotsuron/"; 
  
     var requiredResources = [
         task_github + "jspsych/jspsych.js",
