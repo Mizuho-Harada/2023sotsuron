@@ -2,6 +2,7 @@ var slider_1 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第1問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
@@ -26,6 +27,7 @@ var slider_2 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第2問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
@@ -50,6 +52,7 @@ var slider_3 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第3問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
@@ -74,6 +77,7 @@ var slider_4 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第4問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
@@ -98,6 +102,7 @@ var slider_5 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第5問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
@@ -122,6 +127,7 @@ var slider_6 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第6問</p>
+            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
