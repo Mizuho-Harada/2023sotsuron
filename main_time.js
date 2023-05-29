@@ -9,7 +9,7 @@ var slider_1 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="margin-top:3em;">
+    prompt: `<div style="margin-top:3em;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
@@ -33,7 +33,7 @@ var slider_2 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="width=500px;">
+    prompt: `<div style="width=500px;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
@@ -57,7 +57,7 @@ var slider_3 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="width=500px;">
+    prompt: `<div style="width=500px;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
@@ -81,7 +81,7 @@ var slider_4 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="width=500px;">
+    prompt: `<div style="width=500px;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
@@ -105,7 +105,7 @@ var slider_5 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="width=500px;">
+    prompt: `<div style="width=500px;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
@@ -129,7 +129,7 @@ var slider_6 = {
             <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
         </div>
         </div>`,
-    prompt: `<div style="width=500px;">
+    prompt: `<div style="width=500px;style="text-align:center;">
         <p>回答したら、「次へ」をクリックしてください。</p>
         <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,

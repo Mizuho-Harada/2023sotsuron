@@ -13,7 +13,6 @@ Qualtrics.SurveyEngine.addOnload(function()
     // for example, https://kywch.github.io/jsPsych/jspsych.js
     var requiredResources = [
         task_github + "jspsych/jspsych.js",
-        task_github + "jspsych/plugins/jspsych-instructions.js",
         task_github + "jspsych/plugins/jspsych-html-slider-response.js",
         task_github + "main_time.js"
     ];
