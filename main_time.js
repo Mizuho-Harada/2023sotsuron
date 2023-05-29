@@ -20,7 +20,8 @@ var slider_1 = {
     start: 50,
     step: 12.5,
     slider_width: 400,
-    require_movement: true
+    require_movement: true,
+    button_label: '次の問題へ'
 };
 
 var slider_2 = {
