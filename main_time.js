@@ -19,8 +19,8 @@ var slider_1 = {
     labels: ['85pt</br>|</br>85pt','85pt</br>|</br>76pt','85pt</br>|</br>68pt','85pt</br>|</br>59pt','85pt</br>|</br>50pt','85pt</br>|</br>41pt','85pt</br>|</br>33pt','85pt</br>|</br>24pt','85pt</br>|</br>15pt'],
     min: 1,
     max: 9,
-    start: 4.5,
-    step: 1.0,
+    start: 1,
+    step: 1,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
