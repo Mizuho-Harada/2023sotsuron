@@ -17,11 +17,11 @@ var slider_1 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['85pt</br>|</br>85pt','85pt</br>|</br>76pt','85pt</br>|</br>68pt','85pt</br>|</br>59pt','85pt</br>|</br>50pt','85pt</br>|</br>41pt','85pt</br>|</br>33pt','85pt</br>|</br>24pt','85pt</br>|</br>15pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
-    slider_width: 1000,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
+    slider_width: 750,
     require_movement: true,
     button_label: '次へ'
 };
@@ -45,10 +45,10 @@ var slider_2 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['85pt</br>|</br>15pt','87pt</br>|</br>19pt','89pt</br>|</br>24pt','91pt</br>|</br>28pt','93pt</br>|</br>33pt','94pt</br>|</br>37pt','96pt</br>|</br>41pt','98pt</br>|</br>46pt','100pt</br>|</br>50pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -73,10 +73,10 @@ var slider_3 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['50pt</br>|</br>100pt','54pt</br>|</br>98pt','59pt</br>|</br>96pt','63pt</br>|</br>94pt','68pt</br>|</br>93pt','72pt</br>|</br>91pt','76pt</br>|</br>89pt','81pt</br>|</br>87pt','85pt</br>|</br>85pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -101,10 +101,10 @@ var slider_4 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['50pt</br>|</br>100pt','54pt</br>|</br>89pt','59pt</br>|</br>79pt','63pt</br>|</br>68pt','68pt</br>|</br>58pt','72pt</br>|</br>47pt','76pt</br>|</br>36pt','81pt</br>|</br>26pt','85pt</br>|</br>15pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -129,10 +129,10 @@ var slider_5 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['100pt</br>|</br>50pt','94pt</br>|</br>56pt','88pt</br>|</br>63pt','81pt</br>|</br>69pt','75pt</br>|</br>75pt','69pt</br>|</br>81pt','63pt</br>|</br>88pt','56pt</br>|</br>94pt','50pt</br>|</br>100pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -157,10 +157,10 @@ var slider_6 = {
             <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
     labels: ['100pt</br>|</br>50pt','98pt</br>|</br>54pt','96pt</br>|</br>59pt','94pt</br>|</br>63pt','93pt</br>|</br>68pt','91pt</br>|</br>72pt','89pt</br>|</br>76pt','87pt</br>|</br>81pt','85pt</br>|</br>85pt'],
-    min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    min: 1,
+    max: 9,
+    start: 4.5,
+    step: 1.125,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
