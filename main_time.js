@@ -18,9 +18,9 @@ var slider_1 = {
         </div>`,
     labels: ['85pt</br>|</br>85pt','85pt</br>|</br>76pt','85pt</br>|</br>68pt','85pt</br>|</br>59pt','85pt</br>|</br>50pt','85pt</br>|</br>41pt','85pt</br>|</br>33pt','85pt</br>|</br>24pt','85pt</br>|</br>15pt'],
     min: 0,
-    max: 100,
-    start: 50,
-    step: 12.5,
+    max: 10000,
+    start: 5000,
+    step: 1250,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
