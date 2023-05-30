@@ -2,151 +2,168 @@ var slider_1 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第1問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="margin-top:3em;width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['85</br>|</br>85','85</br>|</br>76','85</br>|</br>68','85</br>|</br>59','85</br>|</br>50','85</br>|</br>41','85</br>|</br>33','85</br>|</br>24','85</br>|</br>15'],
+    labels: ['85pt</br>|</br>85pt','85pt</br>|</br>76pt','85pt</br>|</br>68pt','85pt</br>|</br>59pt','85pt</br>|</br>50pt','85pt</br>|</br>41pt','85pt</br>|</br>33pt','85pt</br>|</br>24pt','85pt</br>|</br>15pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
-    slider_width: 400,
+    slider_width: 750,
     require_movement: true,
-    button_label: '次の問題へ'
+    button_label: '次へ'
 };
 
 var slider_2 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第2問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['85</br>|</br>15','87</br>|</br>19','89</br>|</br>24','91</br>|</br>28','93</br>|</br>33','94</br>|</br>37','96</br>|</br>41','98</br>|</br>46','100</br>|</br>50'],
+    labels: ['85pt</br>|</br>15pt','87pt</br>|</br>19pt','89pt</br>|</br>24pt','91pt</br>|</br>28pt','93pt</br>|</br>33pt','94pt</br>|</br>37pt','96pt</br>|</br>41pt','98pt</br>|</br>46pt','100pt</br>|</br>50pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
     slider_width: 750,
-    require_movement: true
+    require_movement: true,
+    button_label: '次へ'
 };
 
 var slider_3 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第3問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['50</br>|</br>100','54</br>|</br>98','59</br>|</br>96','63</br>|</br>94','68</br>|</br>93','72</br>|</br>91','76</br>|</br>89','81</br>|</br>87','85</br>|</br>85'],
+    labels: ['50pt</br>|</br>100pt','54pt</br>|</br>98pt','59pt</br>|</br>96pt','63pt</br>|</br>94pt','68pt</br>|</br>93pt','72pt</br>|</br>91pt','76pt</br>|</br>89pt','81pt</br>|</br>87pt','85pt</br>|</br>85pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
     slider_width: 750,
-    require_movement: true
+    require_movement: true,
+    button_label: '次へ'
 };
 
 var slider_4 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第4問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['50</br>|</br>100','54</br>|</br>89','59</br>|</br>79','63</br>|</br>68','68</br>|</br>58','72</br>|</br>47','76</br>|</br>36','81</br>|</br>26','85</br>|</br>15'],
+    labels: ['50pt</br>|</br>100pt','54pt</br>|</br>89pt','59pt</br>|</br>79pt','63pt</br>|</br>68pt','68pt</br>|</br>58pt','72pt</br>|</br>47pt','76pt</br>|</br>36pt','81pt</br>|</br>26pt','85pt</br>|</br>15pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
     slider_width: 750,
-    require_movement: true
+    require_movement: true,
+    button_label: '次へ'
 };
 
 var slider_5 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第5問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['100</br>|</br>50','94</br>|</br>56','88</br>|</br>63','81</br>|</br>69','75</br>|</br>75','69</br>|</br>81','63</br>|</br>88','56</br>|</br>94','50</br>|</br>100'],
+    labels: ['100pt</br>|</br>50pt','94pt</br>|</br>56pt','88pt</br>|</br>63pt','81pt</br>|</br>69pt','75pt</br>|</br>75pt','69pt</br>|</br>81pt','63pt</br>|</br>88pt','56pt</br>|</br>94pt','50pt</br>|</br>100pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
     slider_width: 750,
-    require_movement: true
+    require_movement: true,
+    button_label: '次へ'
 };
 
 var slider_6 = {
     type: "html-slider-response",
     stimulus: `<div style="width:500px;">
             <p style="text-align: left">第6問</p>
-            <br><br>
         </div>
         <div style="text-align:center;">
             <p>あなたと他者の配分を決定してください。</p>
         <div style="margin-bottom:3em;">
-            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取ることに注意してください。</p>
+            <p><strong><font color="red">上の段はあなた</font></strong>が受け取り、<strong><font color="red">下の段は他者</font></strong>が受け取るポイント (pt)になります。</p>
+            <p>ポイントは、<strong><font color="red">1ptあたり100円</font></strong>の価値を持ちます。</p>
         </div>
         </div>`,
-    prompt: `<div style="width:500px;text-align:center;">
-        <p>回答したら、「次へ」をクリックしてください。</p>
-        <p><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
+    prompt: `<div style="margin-top:3em;">
+            <p style="text-align:center">回答したら、「次へ」をクリックしてください。</p>
+        </div>
+        <div style="margin-bottom:2em;">
+            <p style="text-align: center;"><strong>スライダーを動かさないと次へ進めません</strong>ので注意してください。</p>
         </div>`,
-    labels: ['100</br>|</br>50','98</br>|</br>54','96</br>|</br>59','94</br>|</br>63','93</br>|</br>68','91</br>|</br>72','89</br>|</br>76','87</br>|</br>81','85</br>|</br>85'],
+    labels: ['100pt</br>|</br>50pt','98pt</br>|</br>54pt','96pt</br>|</br>59pt','94pt</br>|</br>63pt','93pt</br>|</br>68pt','91pt</br>|</br>72pt','89pt</br>|</br>76pt','87pt</br>|</br>81pt','85pt</br>|</br>85pt'],
     min: 0,
     max: 100,
     start: 50,
     step: 12.5,
     slider_width: 750,
-    require_movement: true
+    require_movement: true,
+    button_label: '次へ'
 };
 
 //timelineの設定
