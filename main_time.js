@@ -20,7 +20,7 @@ var slider_1 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -48,7 +48,7 @@ var slider_2 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -76,7 +76,7 @@ var slider_3 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -104,7 +104,7 @@ var slider_4 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -132,7 +132,7 @@ var slider_5 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
@@ -160,7 +160,7 @@ var slider_6 = {
     min: 1,
     max: 9,
     start: 4.5,
-    step: 1.125,
+    step: 1.0,
     slider_width: 750,
     require_movement: true,
     button_label: '次へ'
