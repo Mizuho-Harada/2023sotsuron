@@ -56,6 +56,14 @@
     jsPsych.init({
         timeline: timeline,
         display_element: 'display_stage',
+        on_finish: function(data) {
+            $('<input>').attr({
+                type: 'hidden',
+                name: 'jspsychdata',
+                value: JSON.stringify(data)
+            }).appendTo('#form');
+            $('#form').submit();
+        }
     });
 
 </script>
